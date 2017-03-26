@@ -40,4 +40,11 @@ const arr6 = new Array(1, 2, 3);	// [1, 2, 3]
 const arr7 = new Array(2);	// array of length 2 (all elements undefined)
 const arr8 = new Array("2");	// ["2"]
 
+// Adding or Removing Single Elements at the Beginning or End
+const arr9 = ["b", "c", "d"];
+arr9.push("e");	// returns 4; arr9 is now ["b", "c", "d", "e"]
+arr9.pop();	// returns "e", arr9 is now ["b", "c", "d"]
+arr9.unshift("a");	// returns 4; arr9  is now ["a", "b", "c", "d"]
+arr9.shift();	//returns "a"; arr9 is now ["b", "c", "d"]
+
 
